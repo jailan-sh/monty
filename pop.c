@@ -19,7 +19,7 @@ void pop_ord(stack_t **stack, unsigned int line_number)
 	temp = *stack;
 	if (temp->next)
 	{
-	*stack = (*stack)-> next;
+	*stack = (*stack)->next;
 	(*stack)->prev = NULL;
 	}
 	else
