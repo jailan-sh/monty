@@ -85,6 +85,8 @@ void nop_ord(stack_t **stack, unsigned int line_number);
 void pop_ord(stack_t **stack, unsigned int line_number);
 void swap_ord(stack_t **stack, unsigned int line_number);
 void sub_ord(stack_t **stack, unsigned int line_number);
+void add_ord(stack_t **stack, unsigned int line_number);
+
 /**add or delete node functions from double linked lists*/
 
 stack_t *add_dnodeint(stack_t **head, const int n);
