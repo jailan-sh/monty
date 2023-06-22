@@ -5,6 +5,7 @@
  * @line_number : line number
  * Return: void
  */
+
 void pop_ord(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp;
@@ -12,6 +13,7 @@ void pop_ord(stack_t **stack, unsigned int line_number)
 	if (*stack == NULL || stack == NULL)
 	{
 		fprintf(stderr, "L%d: can't pop an empty stack\n", line_number);
+		free_monty();
 		exit(EXIT_FAILURE);
 	}
 	temp = *stack;

@@ -10,6 +10,10 @@
 
 void nop_ord(stack_t **stack, unsigned int line_number)
 {
+	if (stack == NULL || *stack == NULL)
+	{
+		return;
+	}
 	(void) stack;
 	(void) line_number;
 }
