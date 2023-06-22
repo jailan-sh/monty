@@ -8,21 +8,21 @@
 void sub_ord(stack_t **stack, unsigned int line_number)
 {
 	stack_t *ptr = *stack;
-        int sub = 0;
+	int sub = 0;
 	int num1, num2;
 	int count = 0;
 
-        while (ptr)
-        {
-                count++;
-                ptr = ptr->next;
-        }
-        if (count < 2)
-        {
-                fprintf(stderr, "L%d: can't sub, stack too short\n", line_number);
-                free_monty();
-                exit(EXIT_FAILURE);
-        }
+	while (ptr)
+	{
+		count++;
+		ptr = ptr->next;
+	}
+	if (count < 2)
+	{
+		fprintf(stderr, "L%d: can't sub, stack too short\n", line_number);
+		free_monty();
+		exit(EXIT_FAILURE);
+	}
 	num1 = (*stack)->n;
 	num2 = (*stack)->next->n;
 	sub = num2 - num1;

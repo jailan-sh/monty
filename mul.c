@@ -11,7 +11,7 @@ void mul_ord(stack_t **stack, unsigned int line_number)
 	int mul;
 	int num1, num2;
 	int count = 0;
-	
+
 	while (ptr)
 	{
 		count++;

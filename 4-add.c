@@ -13,7 +13,7 @@ void add_ord(stack_t **stack, unsigned int line_number)
 	stack_t *ptr = *stack;
 	int sum = 0;
 	int count = 0;
-	
+
 	while (ptr)
 	{
 		count++;
