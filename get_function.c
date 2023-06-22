@@ -16,6 +16,7 @@ int get_function(char *s)
 		 {"pint", pint_ord},
 		 {"nop", nop_ord},
 		 {"pop", pop_ord},
+		 {"swap",swap_ord},
 		 {NULL, NULL}
 	};
 	for (i = 0; order[i].opcode != NULL && s != NULL; i++)
