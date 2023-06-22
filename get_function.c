@@ -20,6 +20,7 @@ int get_function(char *s)
 		 {"sub",sub_ord},
 		 {"add", add_ord},
 		 {"div", div_ord},
+		 {"mul", mul_ord},
 		 {NULL, NULL}
 	};
 	for (i = 0; order[i].opcode != NULL && s != NULL; i++)
