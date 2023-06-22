@@ -22,6 +22,7 @@ int get_function(char *s)
 		 {"div", div_ord},
 		 {"mul", mul_ord},
 		 {"mod", mod_ord},
+		 {"pchar", pchar_ord},
 		 {NULL, NULL}
 	};
 	for (i = 0; order[i].opcode != NULL && s != NULL; i++)
