@@ -14,7 +14,7 @@ int get_function(char *s)
 		 {"push", push_ord},
 		 {"pall", pall_ord},
 		 {"pint", pint_ord},
-		 {"nop", nop_ord},
+		 {"nop", NULL},
 		 {"pop", pop_ord},
 		 {"swap",swap_ord},
 		 {NULL, NULL}
