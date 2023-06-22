@@ -11,6 +11,10 @@ void sub_ord(stack_t **stack, unsigned int line_number)
 	stack_t *temp = *stack;
 	int val;
 
+	if (*stack == NULL || stack == NULL)
+	{
+		exit(EXIT_FAILURE);
+	}
 	while (temp)
 	{
 		count++;
