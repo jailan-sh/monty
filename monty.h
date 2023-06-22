@@ -90,6 +90,7 @@ void div_ord(stack_t **stack, unsigned int line_number);
 void mul_ord(stack_t **stack, unsigned int line_number);
 void mod_ord(stack_t **stack, unsigned int line_number);
 void pchar_ord(stack_t **stack, unsigned int line_number);
+void pstr_ord(stack_t **stack, unsigned int line_number);
 
 
 /**add or delete node functions from double linked lists*/
