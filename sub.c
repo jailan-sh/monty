@@ -26,5 +26,4 @@ void sub_ord(stack_t **stack, unsigned int line_number)
 	(*stack)->next->n = (*stack)->next->n - val;
 	*stack = (*stack)->next;
 	(*stack)->prev = NULL;
-	free(temp);
 }
