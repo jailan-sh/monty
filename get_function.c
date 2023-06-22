@@ -13,6 +13,7 @@ int get_function(char *s)
 	instruction_t order[] = {
 		 {"push", push_ord},
 		 {"pall", pall_ord},
+		 {"pint", pint_ord},
 		 {NULL, NULL}
 	};
 	for (i = 0; order[i].opcode != NULL && s != NULL; i++)
