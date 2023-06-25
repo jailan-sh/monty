@@ -13,7 +13,7 @@ void pstr_ord(stack_t **stack, unsigned int line_number)
 	int i;
 	(void) line_number;
 
-	while (ptr)
+	while (ptr && stack)
 	{
 		i = ptr->n;
 		if (i < 0 || i > 127)
